@@ -1,0 +1,50 @@
+div.thumbnail{
+    box-shadow: 8px 8px 4px -8px rgba(0,0,0,0.11);
+    height: 305px;
+    width: 350px;
+    border-color: white;
+  	}
+div.fixed{
+  
+   bottom: 0;
+   right: 0;
+   text-align: center;
+   width: 100%;
+}
+div.jumbotron{
+	height: 204px;
+	width: 1110px;
+	padding-top: 25px;
+	padding-left: 20px
+}
+button.btn{
+	border-color: LightSeaGreen;
+    color: LightSeaGreen;
+}
+p#para1{
+	font-size: 20px;
+	color: LightSeaGreen;
+}
+p#para2{
+	font-size: 15px;
+	color: grey;
+}
+p#para3{
+	color: grey;
+	font-size: 20px;
+}
+p#para4{
+	text-decoration-line: underline;
+	color: grey;
+}
+img#img1{
+	height: 35px;
+	width: 35px;
+}
+img.img{
+	height: 100px;
+	width: 100px;
+}
+a#a1{
+	color: grey;
+}
