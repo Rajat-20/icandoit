@@ -1,7 +1,7 @@
 div.thumbnail{
     box-shadow: 8px 8px 4px -8px rgba(0,0,0,0.11);
-    height: 305px;
-    width: 350px;
+    height: 307px;
+    width: 351px;
     border-color: white;
   	}
 div.fixed{
@@ -17,9 +17,33 @@ div.jumbotron{
 	padding-top: 25px;
 	padding-left: 20px
 }
+div.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 20px;
+  box-shadow:         -3px 0 5px 0 #555;
+}
+div.navbar{
+	width: 100%;
+}
+div#maindiv{
+	margin-top: 35px;
+}
+hr {
+  height: 10px;
+  width: 100%;
+  border: 0;
+  box-shadow: 0 8px 8px -10px #8c8c8c inset;
+  margin-top: 10px;
+}
 button.btn{
 	border-color: LightSeaGreen;
     color: LightSeaGreen;
+}
+i.fa{
+	font-size:25px;
+	color:grey;
+	padding-right: 10px;
 }
 p#para1{
 	font-size: 20px;
@@ -31,11 +55,12 @@ p#para2{
 }
 p#para3{
 	color: grey;
-	font-size: 20px;
+	font-size: 15px;
+	width: 100%;
 }
 p#para4{
-	text-decoration-line: underline;
 	color: grey;
+	font-size: 15px;
 }
 img#img1{
 	height: 35px;
@@ -47,4 +72,6 @@ img.img{
 }
 a#a1{
 	color: grey;
+	text-decoration-line: underline;
+
 }
